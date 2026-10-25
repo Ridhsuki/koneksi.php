@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 25, 2026 at 03:51 PM
+-- Generation Time: Oct 26, 2026 at 12:34 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -40,7 +40,13 @@ CREATE TABLE `tb_users` (
 
 INSERT INTO `tb_users` (`id_user`, `full_name`, `username`, `password`) VALUES
 (1, 'Ulla Barlow', 'kekiqa', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
-(2, 'Mason Massey', 'wikip', 'f3ed11bbdb94fd9ebdefbaf646ab94d3');
+(2, 'Mason Massey', 'wikip', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(3, 'Rana Sharp', 'kidek', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(4, 'Valentine Burt', 'gajosyriba', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(5, 'aaa', 'aa', '0cc175b9c0f1b6a831c399e269772661'),
+(6, 'Madison Peck', 'wukyj', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(7, 'Jana Frazier', 'tyhinodyq', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(8, 'Stone Brock', 'tufopiru', 'f3ed11bbdb94fd9ebdefbaf646ab94d3');
 
 --
 -- Indexes for dumped tables
@@ -60,7 +66,7 @@ ALTER TABLE `tb_users`
 -- AUTO_INCREMENT for table `tb_users`
 --
 ALTER TABLE `tb_users`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
